@@ -17,7 +17,7 @@ public class TwoSixEightMissingNumber {
             sortSet.add(i);
         }
         for (int i = 1; i < nums.length+1; i++){
-            if(sortSet.add(i)){
+            if(!sortSet.contains(i)){
                 return i;
             };
         }
