@@ -5,6 +5,7 @@ import java.util.Random;
 public class Playing_cards {
 
         public static void main(String[] args) {
+
                 Card[] cards = new Card[36];
                 cards[3] = new Card("Spike", 12);
                 cards[5] = new Card("Spike", 6);
